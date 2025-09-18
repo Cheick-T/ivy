@@ -1,8 +1,14 @@
-import "./page.module.css";
+import Login from "@/components/login/login";
+import "./global.css";
 
 export default function Home() {
   return (
-    <h1>This is our main page</h1>
+    <div className="wrapper">
+      <div className="container">
+        <Login />
+      </div>
+    </div>
+
   )
-    
+
 }
